@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SilverRaven</id>
+    <version>$version$</version>
+    <title>Silverlight client for Sentry (getsentry.com)</title>
+    <authors>Sentry Team, Andrew Bailey</authors>
+    <owners>sonicos</owners>
+    <licenseUrl>https://github.com/sonicos/SilverRaven/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/sonicos/SilverRaven</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/sonicos/SilverRaven/master/sentry-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SilverRaven is a Silverlight client for Sentry (getsentry.com and github.com/getsentry/sentry)</description>
+    <releaseNotes>$releaseNotes$</releaseNotes>
+    <copyright>Copyright 2014 The Sentry Team and individual contributors</copyright>
+    <tags>raven sentry logging</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\**\SilverRaven.*" target="lib" />
+  </files>
+</package>
